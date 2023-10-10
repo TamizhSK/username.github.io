@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style1.css"/>
+        <script src="https://kit.fontawesome.com/92aa46a256.js" crossorigin="anonymous"></script>
+    </head>
+    <style>
+      body {
+          background-image: url('https://i.pinimg.com/736x/ff/9c/20/ff9c204f62b65141a988cde3c7b1484f.jpg');
+          background-size: cover; /* This property scales the image to cover the entire background */
+          background-repeat: no-repeat; /* This property prevents the image from repeating */
+      }
+      </style>
+    <script type="text/javascript">  
+      function validate(){  
+      var username=document.getElementById("username").value;
+      var password=document.getElementById("password").value;
+      var password=document.getElementById("name").value;  
+
+        if (username.trim()==="" && password.trim()==="" && name.trim()===""){
+        alert("Enter both Username, Phone Number and Item name");
+      }
+
+      else{
+        alert("Login Successful! Welcome, "+ username + "!");
+      }
+    }
+
+      
+      </script>
+    <body>
+            <div class="image4">
+            <div style="display:flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 auto;">
+            </div>
+
+            <span class="breaker"></span>
+            <div class="box">
+            <div class="loginpage">
+              <div style="font-family: medium;
+                          color:white;
+                          font-size: 15pt;
+                          letter-spacing: 0.5px;
+                          word-spacing: 2px;
+                          text-align: center;
+                          padding:8px 8px;">
+                          To continue, login
+                        </div>
+                        
+              <div class="logincontent">         
+              <div style="font-family: bold;
+                          color:white;
+                          font-size: 28pt;
+                          text-align: center;
+                          padding-left: 80px;
+                          padding-right: 80px;
+                          margin-top: 15px;">Log in</div>
+
+                          
+              <div class="loginapps">
+                <a href="https://www.facebook.com">
+                  <button class="fb-button">
+                      <i class="fab fa-facebook-f fa-lg"></i>CONTINUE WITH FACEBOOK</button>
+              </a>
+              <a href="https://www.apple.com">
+                <button class="apple-button">
+                    <i class="fab fa-apple fa-lg"></i>
+                    CONTINUE WITH APPLE</button>
+            </a>
+
+            <a href="https://google.com/">
+                <button class="google-button">
+                    <i class="fab fa-google fa-lg"></i>
+                    CONTINUE WITH GOOGLE
+                </button>
+            </a>
+
+           
+              </div>
+    
+
+
+
+
+
+            <form style="display:grid;
+                         justify-content:center;
+                         align-items: center;" onsubmit="return validate()" action="app.html">  
+       <label style="font-family: medium;
+                     font-size: 12pt;
+                     color:white;
+                     display: block;
+                     text-align:left;
+                     margin-bottom: 5px;">Username or Email</label>
+       <input id="username"  placeholder="Username" type="text" style="border:none;
+                                                                       height: 30px;
+                                                                       width: 320px;
+                                                                       border-radius: 2px;
+                                                                       background-color:#ffffff;
+                                                                       margin-bottom: 10px;"/>
+       <label style="font-family: medium;
+                     font-size: 12pt;
+                     color:white;
+                     display: block;
+                     text-align: left;
+                     margin-bottom: 5px;">Phone Number</label>
+       <input id="password" placeholder="Contact Number" type="password" style="border:none;
+                                                                          height: 30px;
+                                                                          width:320px;
+                                                                          border-radius: 2px;
+                                                                          text-align: justify;
+                                                                          background-color:#ffffff;
+                                                                          margin-bottom: 10px;"/>
+
+<label style="font-family: medium;
+font-size: 12pt;
+color:white;
+display: block;
+text-align: left;
+margin-bottom: 5px;">Accessory Name</label>                                                                   
+       <input id="name" placeholder="Item name" type="text" style="border:none;
+       height: 30px;
+       width:320px;
+       border-radius: 2px;
+       text-align: justify;
+       background-color:#ffffff;
+       margin-bottom: 10px;"/>                                                                   
+       
+       <button id="loginbutton" type="submit"
+               style="border:none;
+                      background-color:#ffbe0b;
+                      width:80px;
+                      height:40px;
+                      border-radius: 50px;
+                      font-family:bold;
+                      margin-left: 240px;
+                      margin-top: 5px;
+                      margin-bottom: 5px;
+                      font-size: 14px;
+                      letter-spacing: 1px;">LOGIN</button>
+      </form></div> </div></div>
+    
+    </body>
+    </html>
+
+
+         
+    
